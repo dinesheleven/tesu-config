@@ -103,13 +103,14 @@ Tesu uses the official Telegram Database Library (TDLib) to connect to Telegram'
 - [Telegram Privacy Policy](https://telegram.org/privacy)
 - [Telegram Terms of Service](https://telegram.org/tos)
 
-### 5.2 Google Play Services
+### 5.2 Google Play Services & Firebase App Check
 
 If you installed Tesu from Google Play Store:
 - **In-App Updates:** Google Play may transmit app version information to check for updates
 - **Play Store Reviews:** If you leave a review, it's governed by Google's policies
+- **App Integrity (Firebase App Check):** We use Firebase App Check with the Googe Play Integrity API to protect our app from abuse, piracy, and tampering. This service may collect device integrity signals (such as device type and OS integrity status) to verify that your request is coming from the official, unmodified Tesu app. This data is used solely for security and anti-fraud purposes and is not used to identify you personally.
 
-We do not receive any personal data from Google Play Services.
+We do not receive any personal data from Google Play Services or Firebase App Check.
 
 ---
 
