@@ -2,7 +2,7 @@
   "min_version": "1.0.0",
   "force_update": false,
   "update_message": "A critical update is required. Please update Tesu.",
-  "recommended_version": "1.0.1",
+  "recommended_version": "1.0.0",
   "show_update_prompts": true,
   "maintenance_mode": false,
   "maintenance_message": "Tesu is under maintenance. We'll be back shortly!"
