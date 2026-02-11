@@ -24,73 +24,45 @@ For privacy-related inquiries, please contact us at the email above.
 
 ---
 
-## 3. What Data We Collect
+## 3. Data Collection
 
-### 3.1 Data We Do NOT Collect
+### 3.1 Data Stored by the Developer
+The developer of Tesu does **not** collect, store, or transmit your personal data to our own servers. We do not have access to your messages, files, or account details.
 
-Tesu does **not** collect, store, or transmit the following to our servers:
+### 3.2 Data Transmitted by the App (Third Parties)
+While the developer does not collect data, the **Tesu App** transmits data to the following third-party services to function:
 
-- ❌ Your phone number
-- ❌ Your messages or chats
-- ❌ Your contacts
-- ❌ Your media files (photos, videos, documents)
-- ❌ Your Telegram account information
-- ❌ Your device ID or Android ID
-- ❌ Location data
-- ❌ Usage analytics or tracking data
+**A. Telegram (Authentication & Chat Data)**
+- **Collected Data:** Phone number, contacts, messages, media, account ID.
+- **Purpose:** Essential app functionality (chatting, logging in).
+- **Encryption:** All data is encrypted in transit using MTProto.
+- **Policy:** Governed by [Telegram's Privacy Policy](https://telegram.org/privacy).
 
-### 3.2 Data Handled by Telegram
+**B. Google AdMob (Advertising)**
+- **Collected Data:** Advertising ID, device information, crash logs, performance data.
+- **Purpose:** Displaying non-personalized advertisements to support the app.
+- **Encryption:** Encrypted in transit (HTTPS).
+- **Policy:** Governed by [Google's Privacy Policy](https://policies.google.com/privacy).
 
-When you use Tesu, your data is handled by Telegram's servers, not ours. This includes:
-
-- Your authentication (phone number, 2FA)
-- Your messages and chats
-- Your media files
-- Your contacts
-- Your Telegram account settings
-
-This data is governed by [Telegram's Privacy Policy](https://telegram.org/privacy), not this policy.
-
-### 3.3 Data Stored Locally on Your Device
-
-Tesu stores the following data **locally on your device only**:
-
-| Data | Purpose | Stored Where |
-|------|---------|--------------|
-| Downloaded media | Offline access | Your device storage |
-| App preferences | Your settings | App's local database |
-| Authentication session | Keep you logged in | Encrypted TDLib database |
-| Debug logs (temporary) | Bug fixing if you report | Memory only |
-
-**This data never leaves your device** unless you explicitly choose to share it (e.g., by sending a bug report).
+### 3.3 Data Stored Locally
+Tesu stores downloaded media and settings locally on your device. This data never leaves your device unless you share it.
 
 ### 3.4 Voluntary Bug Reports
-
-If you choose to send a bug report:
-- Device model and OS version (e.g., "Samsung Galaxy S21, Android 14")
-- App version
-- Sanitized debug logs (phone numbers, emails, and IDs are automatically redacted)
-
-Bug reports are sent via **your email client** directly to our support email. We do not have access to your data unless you explicitly send it.
+If you email us a bug report, we receive your email address and any logs you attach. This data is used solely for fixing bugs.
 
 ---
 
 ## 4. How We Use Your Data
 
-### 4.1 Local Data Usage
+### 4.1 App Functionality
+- **Local Storage:** To save files you download for offline access.
+- **Preferences:** To remember your theme and settings.
 
-- **Downloaded media:** To allow offline viewing of files you've downloaded
-- **App preferences:** To remember your settings
-- **Authentication session:** To keep you logged in between app sessions
+### 4.2 Advertising
+We use **Google AdMob** to display ads. AdMob may use your device's Advertising ID to serve ads and prevent fraud. We do not share any personal user data (like phone numbers or names) with advertisers.
 
-### 4.2 No Third-Party Sharing
-
-We do **not**:
-- Share your data with third parties
-- Sell your data
-- Use your data for advertising
-- Send your data to analytics services
-- Use Firebase, Google Analytics, or similar services
+### 4.3 No Sale of Data
+We do **not** sell your personal data to any third parties.
 
 ---
 
@@ -128,18 +100,38 @@ Since we do not operate servers, there is no risk of server-side data breaches f
 
 ---
 
-## 7. Your Rights
+## 7. Account Deletion and Data Retention
+
+### 7.1 How to Delete Your Account
+Since Tesu uses your Telegram account for login, your account data is managed by Telegram. To permanently delete your account and all associated data:
+
+1.  **Go to:** [https://my.telegram.org/auth?to=delete](https://my.telegram.org/auth?to=delete)
+2.  **Log in:** Enter your phone number and the confirmation code sent to your Telegram app.
+3.  **Confirm:** Select "Delete Account".
+
+**Warning:** This action is irreversible. All your messages, contacts, and account data will be permanently deleted from Telegram's servers.
+
+### 7.2 Deleting Local Data
+To delete data stored locally on your device (cached media, downloads, settings):
+- **Uninstall Tesu:** This immediately removes all app-specific data.
+- **Clear Data:** Go to Android Settings > Apps > Tesu > Storage > Clear Data.
+
+### 7.3 Data Retention
+- **Telegram Data:** Retained by Telegram according to their policy until you delete your account.
+- **Local Data:** Retained on your device until you delete it or uninstall the app.
+- **AdMob Data:** Retained by Google according to their data retention policies.
+
+---
+
+## 8. Your Rights
 
 You have the following rights regarding your personal data:
 
-### 7.1 Access and Control
+### 8.1 Access and Control
+- **View your data:** All your messages and media are accessible within the app.
+- **Export your data:** You can use official Telegram Desktop to export your chat history.
 
-- **View your data:** All your data is on your device and in your Telegram account
-- **Delete your data:** Uninstall the app to remove all local data
-- **Delete downloaded files:** Use the app's settings or your file manager
-- **Delete your Telegram account:** Use Telegram's official account deletion
-
-### 7.2 Your Rights Under Law
+### 8.2 Your Rights Under Law
 
 Since we do not collect your personal data, most data protection rights (access, correction, deletion) apply to:
 - **Telegram data:** Contact Telegram directly
@@ -148,7 +140,7 @@ Since we do not collect your personal data, most data protection rights (access,
 
 ---
 
-## 8. Age Requirement
+## 9. Age Requirement
 
 Tesu requires a Telegram account to function. Telegram requires users to be at least 13 years old (or 16 in some regions) to create an account. By using Tesu, you confirm that you meet Telegram's age requirements.
 
